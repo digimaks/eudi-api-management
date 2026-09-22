@@ -17,9 +17,9 @@ import (
 
 	"github.com/gmb-eudi/go-verifier-helpers/handoffwire"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/sessiondb"
+	mgmt "github.com/digimaks/eudi-api-management"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/sessiondb"
 )
 
 // TestCorrelation_CreateBodyToHandoffToWebhook is the correlation-trace test:

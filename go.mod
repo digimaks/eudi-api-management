@@ -1,4 +1,4 @@
-module github.com/dativa-lv/eudi-api-management
+module github.com/digimaks/eudi-api-management
 
 go 1.27.0
 

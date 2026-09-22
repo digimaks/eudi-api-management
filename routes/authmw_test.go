@@ -10,9 +10,9 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/valyala/fasthttp"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
-	"github.com/dativa-lv/eudi-api-management/internal/apikeys"
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	mgmt "github.com/digimaks/eudi-api-management"
+	"github.com/digimaks/eudi-api-management/internal/apikeys"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 )
 
 // testAppWithProbe boots the app, runs newRouter (health + the auth-gated

@@ -9,7 +9,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/dativa-lv/eudi-api-management/internal/keyspace"
+	"github.com/digimaks/eudi-api-management/internal/keyspace"
 )
 
 // Valkey keys owned by this package (Consumer and Retrier are the only

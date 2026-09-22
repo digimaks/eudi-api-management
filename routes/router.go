@@ -7,8 +7,8 @@ import (
 
 	"azugo.io/azugo"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
-	"github.com/dativa-lv/eudi-api-management/internal/apikeys"
+	mgmt "github.com/digimaks/eudi-api-management"
+	"github.com/digimaks/eudi-api-management/internal/apikeys"
 )
 
 type router struct {

@@ -12,8 +12,8 @@ import (
 
 	"github.com/gmb-eudi/go-verifier-helpers/handoffwire"
 
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/sessiondb"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/sessiondb"
 )
 
 // TestSweeper_ExpiredPendingSession_DeliversExpiredState seeds an expired

@@ -9,7 +9,7 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/dativa-lv/eudi-api-management/internal/keyspace"
+	"github.com/digimaks/eudi-api-management/internal/keyspace"
 )
 
 // The retry schedule and attempt counters land under the prefix and nowhere

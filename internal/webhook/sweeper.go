@@ -9,9 +9,9 @@ import (
 
 	"azugo.io/core"
 
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/results"
-	"github.com/dativa-lv/eudi-api-management/internal/sessiondb"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/results"
+	"github.com/digimaks/eudi-api-management/internal/sessiondb"
 )
 
 // Sweeper polls sessiondb.Store.ExpireDue and delivers a signed

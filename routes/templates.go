@@ -10,10 +10,10 @@ import (
 	pkerrors "github.com/gmb-lib/go-platform-kit/errors"
 	"github.com/valyala/fasthttp"
 
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/obs"
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
-	"github.com/dativa-lv/eudi-api-management/internal/scope"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/obs"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/scope"
 )
 
 // createTemplate is POST /api/v1/templates: it validates the template's DCQL

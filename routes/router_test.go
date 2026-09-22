@@ -7,7 +7,7 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/valyala/fasthttp"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
+	mgmt "github.com/digimaks/eudi-api-management"
 )
 
 func testApp(t testing.TB) *azugo.TestApp {

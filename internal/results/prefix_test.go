@@ -8,7 +8,7 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/redis/go-redis/v9"
 
-	"github.com/dativa-lv/eudi-api-management/internal/keyspace"
+	"github.com/digimaks/eudi-api-management/internal/keyspace"
 )
 
 // A prefixed Fetch looks only under the prefix: an unprefixed payload for the

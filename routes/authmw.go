@@ -9,8 +9,8 @@ import (
 	"github.com/valyala/fasthttp"
 	"go.uber.org/zap"
 
-	"github.com/dativa-lv/eudi-api-management/internal/apikeys"
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/apikeys"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 )
 
 // apiKeyHeader is the HTTP header carrying the presented API key.

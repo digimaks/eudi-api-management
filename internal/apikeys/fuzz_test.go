@@ -3,7 +3,7 @@ package apikeys_test
 import (
 	"testing"
 
-	"github.com/dativa-lv/eudi-api-management/internal/apikeys"
+	"github.com/digimaks/eudi-api-management/internal/apikeys"
 )
 
 // FuzzParseAPIKey is the fuzz target for Parse, the one function in this

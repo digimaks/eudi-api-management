@@ -20,11 +20,11 @@ import (
 	"github.com/gmb-lib/go-platform-kit/observability"
 	"github.com/gmb-lib/go-platform-kit/platform"
 
-	"github.com/dativa-lv/eudi-api-management/internal/keyspace"
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
-	"github.com/dativa-lv/eudi-api-management/internal/sessiondb"
-	"github.com/dativa-lv/eudi-api-management/internal/vcclient"
-	"github.com/dativa-lv/eudi-api-management/internal/webhook"
+	"github.com/digimaks/eudi-api-management/internal/keyspace"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/sessiondb"
+	"github.com/digimaks/eudi-api-management/internal/vcclient"
+	"github.com/digimaks/eudi-api-management/internal/webhook"
 )
 
 // sweeperInterval is the expiry-sweeper tick. Fixed at 30s rather than

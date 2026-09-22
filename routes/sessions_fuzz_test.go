@@ -8,8 +8,8 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/valyala/fasthttp"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	mgmt "github.com/digimaks/eudi-api-management"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 )
 
 // FuzzCreateSessionBody drives the authed POST /api/v1/sessions handler with

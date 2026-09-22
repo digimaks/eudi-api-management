@@ -22,11 +22,11 @@ import (
 
 	"github.com/gmb-eudi/go-verifier-helpers/handoffwire"
 
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/keyspace"
-	"github.com/dativa-lv/eudi-api-management/internal/obs"
-	"github.com/dativa-lv/eudi-api-management/internal/results"
-	"github.com/dativa-lv/eudi-api-management/internal/sessiondb"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/keyspace"
+	"github.com/digimaks/eudi-api-management/internal/obs"
+	"github.com/digimaks/eudi-api-management/internal/results"
+	"github.com/digimaks/eudi-api-management/internal/sessiondb"
 )
 
 // MetricWebhookDeliveryTotal counts webhook delivery outcomes

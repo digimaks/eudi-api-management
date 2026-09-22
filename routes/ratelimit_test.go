@@ -9,8 +9,8 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/valyala/fasthttp"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
-	"github.com/dativa-lv/eudi-api-management/internal/api"
+	mgmt "github.com/digimaks/eudi-api-management"
+	"github.com/digimaks/eudi-api-management/internal/api"
 )
 
 // newRateLimitedApp boots the app with small, test-tunable per-key/per-IP

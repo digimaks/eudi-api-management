@@ -10,9 +10,9 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/valyala/fasthttp"
 
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/obs"
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/obs"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 )
 
 // postTemplate issues POST /api/v1/templates.

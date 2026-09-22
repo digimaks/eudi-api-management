@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 
 	"github.com/go-quicktest/qt"
 	"github.com/jackc/pgx/v5/pgxpool"

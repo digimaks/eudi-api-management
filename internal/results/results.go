@@ -19,8 +19,8 @@ import (
 
 	"github.com/gmb-eudi/go-verifier-helpers/handoffwire"
 
-	"github.com/dativa-lv/eudi-api-management/internal/api"
-	"github.com/dativa-lv/eudi-api-management/internal/keyspace"
+	"github.com/digimaks/eudi-api-management/internal/api"
+	"github.com/digimaks/eudi-api-management/internal/keyspace"
 )
 
 // Fetch loads vc:handoff:payload:{sessionID}, decrypts its result_jwe with

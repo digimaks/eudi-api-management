@@ -1,7 +1,7 @@
 package main
 
 import (
-	eudiapimanagement "github.com/dativa-lv/eudi-api-management"
+	eudiapimanagement "github.com/digimaks/eudi-api-management"
 
 	"azugo.io/azugo/server"
 	"azugo.io/core/cli"

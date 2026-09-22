@@ -11,7 +11,7 @@ import (
 
 	dcql "github.com/gmb-eudi/go-dcql"
 
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 )
 
 // ScopeError reports that a validated DCQL query requests credentials or

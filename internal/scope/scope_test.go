@@ -9,7 +9,7 @@ import (
 	dcql "github.com/gmb-eudi/go-dcql"
 	"github.com/go-quicktest/qt"
 
-	"github.com/dativa-lv/eudi-api-management/internal/registrydb"
+	"github.com/digimaks/eudi-api-management/internal/registrydb"
 )
 
 // mdocNS is the fixed mdoc namespace used by every test query/registration

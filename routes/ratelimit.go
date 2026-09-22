@@ -5,7 +5,7 @@ import (
 	"azugo.io/azugo/config"
 	"azugo.io/azugo/middleware"
 
-	mgmt "github.com/dativa-lv/eudi-api-management"
+	mgmt "github.com/digimaks/eudi-api-management"
 )
 
 // Rate-limit namespaces for the two POST /api/v1/sessions dimensions.
