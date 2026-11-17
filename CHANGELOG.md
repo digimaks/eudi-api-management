@@ -2,7 +2,7 @@
 
 Notable changes, newest first. Releases are git tags; this file says what each tag contains.
 
-## Unreleased
+## v0.1.2
 
 ### Changed
 
