@@ -2,6 +2,19 @@
 
 Notable changes, newest first. Releases are git tags; this file says what each tag contains.
 
+## Unreleased
+
+### Changed
+
+- **Go 1.27.4** (was 1.27.2), both in `go.mod` and as the image's default build toolchain
+  (`ARG GO_VERSION` in the `Dockerfile`), and the framework moves to **azugo v0.50.2**, with
+  `go-platform-kit` → v1.13.0, `go-dcql` → v0.0.4, `go-eudi-crypto` → v0.0.10, `go-eudi-rpcert` →
+  v0.0.8, `go-verifier-helpers` → v0.0.6 and `go-eudi-trust` → v0.1.4. **Rebuild the image to pick
+  this up.**
+- **Request bodies the framework reads are held to 4 MiB.** A session or template request over
+  that size is answered `413` with a problem document; the limit can be changed with
+  `SERVER_MAX_REQUEST_BODY_SIZE`. Requests this service accepts are far smaller.
+
 ## v0.1.1
 
 A security release. **The service now builds with Go 1.27.2**, and its libraries move to their Go 1.27.2
