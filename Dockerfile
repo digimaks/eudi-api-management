@@ -1,16 +1,20 @@
-ARG GO_VERSION=1.27.0
+ARG GO_VERSION=1.27.4
 
 FROM golang:${GO_VERSION} AS build
 WORKDIR /src
 
-COPY . .
+# The module list alone, so an edit to the source reuses the downloaded modules.
+COPY go.mod go.sum ./
+RUN --mount=type=cache,target=/go/pkg/mod go mod download
 
-RUN go mod download
+COPY . .
 
 ARG VERSION=dev
 
 # CGO is disabled: the binary is fully static and needs no system libraries.
-RUN CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w -X main.Version=${VERSION}" -o /out/server ./cmd/server
+RUN --mount=type=cache,target=/go/pkg/mod \
+    --mount=type=cache,target=/root/.cache/go-build \
+    CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w -X main.Version=${VERSION}" -o /out/server ./cmd/server
 
 FROM ghcr.io/wntrtech/scratch:v1.0.0-3
 COPY --from=build /out/server /server
