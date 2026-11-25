@@ -49,8 +49,8 @@ github.com/gmb-eudi/go-eudi-trust v0.1.4 h1:PTIrxLdnktOWrMi594aHtiq0FZFdExkAz574
 github.com/gmb-eudi/go-eudi-trust v0.1.4/go.mod h1:HmlpwC6kaED9TTmvJtR2yMLItsdkz/jnO4HBxJ1Oqjk=
 github.com/gmb-eudi/go-verifier-helpers v0.0.6 h1:HghPW/H5/Ux/lipnWuoc1zcpH4y7rNP+1gpPpBlw3S0=
 github.com/gmb-eudi/go-verifier-helpers v0.0.6/go.mod h1:21pw/AcfqeW+ghseAJt+xR6gWkjbIigZavz6X4iHIdI=
-github.com/gmb-lib/go-platform-kit v1.13.0 h1:DeoUXL4Eq309u9Ufhx9PleW/qMmkR8OXQoUHRcuAkYo=
-github.com/gmb-lib/go-platform-kit v1.13.0/go.mod h1:FtcG128HmBeFcaO/+SSzxU9ZpkB52rhZFLJIYH2R9CI=
+github.com/gmb-lib/go-platform-kit v1.14.0 h1:TJK1eypmEddqLaif7zxlecm9QiA7nu4sc0gf+ICtblg=
+github.com/gmb-lib/go-platform-kit v1.14.0/go.mod h1:wSsrYSP4c0J5KxhCf+fREG12Lux/kyOLTAJdh0nkH1U=
 github.com/go-logr/logr v1.2.2/go.mod h1:jdQByPbusPIv2/zmleS9BjJVeZ6kBagPoEUsqbVz/1A=
 github.com/go-logr/logr v1.4.4 h1:tG4xh9yMsRCAiodLVTxyrkzSZ9+o0L1Kg/+cPVcbP/8=
 github.com/go-logr/logr v1.4.4/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=

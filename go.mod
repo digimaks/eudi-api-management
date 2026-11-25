@@ -11,7 +11,7 @@ require (
 	github.com/gmb-eudi/go-eudi-crypto v0.0.10
 	github.com/gmb-eudi/go-eudi-rpcert v0.0.8
 	github.com/gmb-eudi/go-verifier-helpers v0.0.6
-	github.com/gmb-lib/go-platform-kit v1.13.0
+	github.com/gmb-lib/go-platform-kit v1.14.0
 	github.com/go-quicktest/qt v1.102.0
 	github.com/jackc/pgx/v5 v5.11.0
 	github.com/oklog/ulid/v2 v2.1.2
